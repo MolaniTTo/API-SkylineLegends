@@ -5,7 +5,7 @@ En aquest repositori es troba el projecte de la API feta amb Nodejs del videojoc
 
 ## Descripció
 
-Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb Node.js. L'API proporciona funcionalitats essencials per gestionar els recursos del joc, incloent la creació de personatges, el maneig de missions, la gestió de l'inventari, i altres operacions relacionades amb el joc.
+Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb Node.js. L'API proporciona funcionalitats essencials per gestionar els recursos del joc, incloent la creació de usuaris, la gestió de l'inventari, la gestio de les partides, i altres operacions relacionades amb el joc.
 
 ## Tecnologies utilitzades
 
@@ -15,6 +15,8 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 
 ## Instruccions d’ús
 
+1. Obrir la base de dades desde Replit, perque es pugui connectar i recuperar les dades.
+2. 
 ### Requisits previs
 
 - Node.js i npm instal·lats.
