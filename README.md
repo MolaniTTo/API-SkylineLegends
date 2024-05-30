@@ -16,7 +16,7 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 ## Instruccions d’ús
 
 1. Obrir la base de dades desde Replit, perque es pugui connectar i recuperar les dades.
-2. 
+
 ### Requisits previs
 
 - Node.js i npm instal·lats.
@@ -34,18 +34,4 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 - **GET /partidas**: Actualitzar l'inventari del jugador.
 - **POST /insertPartida**: Actualitzar l'inventari del jugador.
 
-
-## Contribució
-
-Si voleu contribuir al desenvolupament d'aquesta API, seguiu aquests passos:
-
-1. Feu un fork del repositori.
-2. Creeu una nova branca (`git checkout -b feature/nova-feature`).
-3. Feu els canvis necessaris i cometeu-los (`git commit -m 'Afegeix nova feature'`).
-4. Empenyeu els canvis a la branca (`git push origin feature/nova-feature`).
-5. Creeu una pull request.
-
-## Llicència
-
-Aquest projecte està sota la llicència MIT. Vegeu l'arxiu [LICENSE](LICENSE) per més detalls.
 
