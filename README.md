@@ -34,7 +34,6 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 - **GET /partidas**: Actualitzar l'inventari del jugador.
 - **POST /insertPartida**: Actualitzar l'inventari del jugador.
 
-Per més detalls sobre els endpoints i els seus paràmetres, consulteu la documentació de l'API.
 
 ## Contribució
 
