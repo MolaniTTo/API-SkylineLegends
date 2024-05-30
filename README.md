@@ -11,10 +11,6 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 
 - **Node.js**: Plataforma de JavaScript per al backend.
 - **Express**: Framework de Node.js per crear aplicacions web i API.
-- **MongoDB**: Base de dades NoSQL utilitzada per emmagatzemar dades del joc.
-- **Mongoose**: Biblioteca d'ODM (Object Data Modeling) per a MongoDB i Node.js.
-- **JWT (JSON Web Tokens)**: Per a l'autenticació i autorització.
-- **dotenv**: Per gestionar variables d'entorn.
 - **Nodemon**: Eina que ajuda en el desenvolupament de Node.js, reiniciant l'aplicació automàticament quan es detecten canvis en els arxius del projecte.
 
 ## Instruccions d’ús
@@ -22,43 +18,6 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 ### Requisits previs
 
 - Node.js i npm instal·lats.
-- MongoDB instal·lat i en execució.
-
-### Instal·lació
-
-1. Clonar el repositori:
-    ```bash
-    git clone https://github.com/el_teu_usuari/SkylineLegends.git
-    ```
-
-2. Navegar a la carpeta del projecte:
-    ```bash
-    cd SkylineLegends
-    ```
-
-3. Instal·lar les dependències:
-    ```bash
-    npm install
-    ```
-
-4. Crear un arxiu `.env` a la carpeta arrel del projecte amb les següents variables d'entorn:
-    ```env
-    PORT=3000
-    MONGODB_URI=your_mongodb_uri
-    JWT_SECRET=your_secret_key
-    ```
-
-### Execució
-
-1. Executar l'aplicació en mode desenvolupament:
-    ```bash
-    npm run dev
-    ```
-
-   O en mode producció:
-    ```bash
-    npm start
-    ```
 
 ### Endpoints principals
 
