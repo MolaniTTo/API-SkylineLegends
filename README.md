@@ -23,14 +23,16 @@ Aquest repositori conté l'API per al videojoc SkylineLegends, desenvolupada amb
 
 ### Endpoints principals
 
-- **POST /api/register**: Registre de nous usuaris.
-- **POST /api/login**: Autenticació d'usuaris.
-- **GET /api/characters**: Obtenir la llista de personatges.
-- **POST /api/characters**: Crear un nou personatge.
-- **GET /api/missions**: Obtenir la llista de missions disponibles.
-- **POST /api/missions**: Afegir una nova missió.
-- **GET /api/inventory**: Obtenir l'inventari del jugador.
-- **POST /api/inventory**: Actualitzar l'inventari del jugador.
+- **GET /jugadores**: Retorna tots els jugadors.
+- **POST /checklogin**: Autenticació d'usuaris.
+- **PUT /update**: Obtenir la llista de personatges.
+- **GET /inventario**: Crear un nou personatge.
+- **PUT /updateState**: Obtenir la llista de missions disponibles.
+- **GET /naves**: Afegir una nova missió.
+- **PUT /naves/:idnave**: Obtenir l'inventari del jugador.
+- **GET /ranking**: Actualitzar l'inventari del jugador.
+- **GET /partidas**: Actualitzar l'inventari del jugador.
+- **POST /insertPartida**: Actualitzar l'inventari del jugador.
 
 Per més detalls sobre els endpoints i els seus paràmetres, consulteu la documentació de l'API.
 
